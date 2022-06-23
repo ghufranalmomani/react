@@ -4,7 +4,7 @@ class Counter extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            title:'change my color',
+            title:'Orange Coding Academy',
             count:0,
             h1color: 'black',
             h2color: 'black',
@@ -44,7 +44,7 @@ class Counter extends React.Component{
         return (
         <>
         <h1 id="title" style={{color:this.state.h1color}}>{this.state.title}</h1>
-        <button onClick={this.change}>click me!</button>
+        <button onClick={this.change}>click</button>
         <span id="count" style={{color:this.state.h2color}}>{this.state.count}</span>
         </>
         )
