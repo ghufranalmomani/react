@@ -3,7 +3,7 @@ import "./App.css";
 
 function App1() {
 const [result , disList] = useState('');
-  const person = ['bahaa', 'aya', 'dyar', 'ghufran', 'obada', 'anas', 'raghad', 'tamara', 'ibrahim'];
+  const person = ['bahaa', 'aya', 'dyar', 'ghufran', 'obada', 'anas', 'raghad', 'tamara', 'ibrahim','marwa','roaa'];
   
   return (
     <div className='App1'>
